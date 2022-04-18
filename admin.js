@@ -36,16 +36,16 @@ function createProducts(image, sale, name, price, id) {
         var json = JSON.stringify(this);
         return json;
     }
-    product.fromJSONs = function (jsonListProduct) {
-        var fullListProduct = new Array();
-        var listProduct = JSON.parse(jsonListProduct);
-        for (var i = 0; i < listProduct.length; i++) {
-            var product = listProduct[i];
-            var fullProduct = createProducts(product.image, product.sale, product.name, product.price)
-            fullListProduct[i] = fullProduct;
-        }
-        return fullListProduct;
-    }
+//     product.fromJSONs = function (jsonListProduct) {
+//         var fullListProduct = new Array();
+//         var listProduct = JSON.parse(jsonListProduct);
+//         for (var i = 0; i < listProduct.length; i++) {
+//             var product = listProduct[i];
+//             var fullProduct = createProducts(product.image, product.sale, product.name, product.price)
+//             fullListProduct[i] = fullProduct;
+//         }
+//         return fullListProduct;
+//     }
 
     return product;
 }
@@ -128,7 +128,8 @@ $("#form").addEventListener('submit', (e) => {
 
     //1. get Product from localStorage
     var jsonListProduct = localStorage.getItem('product')
-    var listProducts = createProducts().fromJSONs(jsonListProduct)
+    var listProduct = JSON.parse(jsonListProduct);
+    var listProducts = listProduct
     console.log(listProducts);
     // 2. change object to HTML
     var HTML = productToHTML(listProduct);
