@@ -129,7 +129,8 @@ $("#form").addEventListener('submit', (e) => {
     //1. get Product from localStorage
     var jsonListProduct = localStorage.getItem('product')
     var listProduct = JSON.parse(jsonListProduct);
-    var listProducts = listProduct
+    var listProducts = function createProducts(listProduct)
+
     console.log(listProducts);
     // 2. change object to HTML
     var HTML = productToHTML(listProduct);
@@ -203,7 +204,7 @@ function onClickEdit(idProduct) {
          for (let i = 0; i < current.length; i++) {
              var product = current[i];
              if (idProduct === product.id) {
-                
+                alert("Thêm sản phẩm thành công")
                  listProduct[i] = newProduct;
                  console.log(listProduct);
                  localStorage.removeItem('product')
