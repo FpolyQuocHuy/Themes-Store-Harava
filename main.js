@@ -28,6 +28,9 @@ function createProducts(image, sale, name, price, id) {
     product.fromJSONs = function (jsonListProduct) {
         var fullListProduct = new Array();
         var listProduct = JSON.parse(jsonListProduct);
+        if(listProduct == null){
+            listProduct = new Array();
+        }
         for (var i = 0; i < listProduct.length; i++) {
             var product = listProduct[i];
             var fullProduct = createProducts(product.image, product.sale, product.name, product.price)
