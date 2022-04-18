@@ -131,7 +131,7 @@ $("#form").addEventListener('submit', (e) => {
     var listProduct = JSON.parse(jsonListProduct);
     var listProducts = function createProducts(listProduct)
 
-    console.log(listProducts);
+   
     // 2. change object to HTML
     var HTML = productToHTML(listProduct);
     
