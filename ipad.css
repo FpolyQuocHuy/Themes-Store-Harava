@@ -1,0 +1,234 @@
+body {
+    padding: 0px 10px;
+}
+
+.container-tbody {
+    width: 100%;
+}
+#last-child {
+    display: none;
+}
+.head-body .header-1 .container-header {
+    display: none;
+}
+.nav-bar .tbody-nav .search-tbody {
+    border-radius: 20px;
+}
+
+.fbody-nav .menu-level-1 {
+    font-size: 13px;
+    padding-left: 20px;
+}
+.nav-bar .head-body .login-item {
+    display: flex;
+    width: 200px;
+}
+.adverti .container-adverti {
+    margin-left: 30px;
+}
+.adverti .container-adverti .adverti-title {
+    font-size: 26px;
+}
+
+.adverti .container-adverti{
+    padding: 10px 0px 10px 20px;
+
+}
+.adverti-icon {
+   margin-top: -30px;
+   position: absolute;
+}
+.adverti .container-adverti .adverti-btn {
+    padding: 10px 15px;
+}
+.polyci {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+
+}
+.polyci .container-polyci  {
+    width: 360px;
+    height: 52px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.polyci .container-polyci .polyci-decs {
+    font-size: 14px;
+}
+/* home-baner-two */
+.home-baner-two  {
+    display: block;
+    margin-left: 30px;
+}
+.home-baner-two .item-home-baner-two {
+    margin-top: 20px;
+
+}
+.run-time .container-run-time .menu-run-time {
+    margin-bottom: 20px;
+}
+.run-time .container-run-time  .title-run-time {
+   font-size: 24px;
+} 
+.run-time .container-run-time .product-block {
+    width: 28%;
+    height: 400px;
+    display: inline-block;
+    margin: 0px 10px;
+}
+.run-time .container-run-time .product-block .img-product-block {
+    width: 180px;
+    height: 250px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.home-baner-full {
+    height: 310px;
+}
+.home-baner-full .img-home-baner-full {
+    width: 728px;
+    margin: 0px 20px;
+
+}
+/* container-wrap-product */
+.container-wrap-product {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+.container-wrap-product .product-wrap {
+    width: 30%;
+    margin: 15px 10px;
+}
+.product-wrap img.img-product-wrap {
+    padding: 10px 15px;
+    margin: 0px;
+    border-radius: 10px;
+}
+/* ảticles */
+.articles  {
+    width: 768px;
+}
+.articles .container-articles-slide {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.articles .container-articles-slide  .sub-content  {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.title-news-articles {
+    font-size: 20px;
+    line-height: 28px;
+    color: #29292A;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.decs-news-articles {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 5px;
+    color: #666;
+}
+/* customer-review */
+
+.customer-review {
+    width:768px ;
+}
+.customer-review .mark-customer {
+    width: 768px;
+    margin-bottom: 20px;
+}
+.container-customer-review {
+    width: 768px;
+}
+.customer-review .container-item-customer {
+    display: block;
+    width: 708px;
+    overflow: auto;
+    margin: 20px 20px 0px 20px;
+    
+}
+
+.container-title-review {
+   margin-right: 330px;
+   
+}
+.customer-review .container-item-customer .infor-customer {
+    width: 20%;
+    float: left;
+    padding: 10px 20px;
+}
+.customer-review .container-item-customer .infor-customer .avt-customer{
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+}
+.customer-review .container-item-customer .infor-customer .name-customer {
+    font-size: 18px;
+    margin: 0px;
+}
+.customer-review .container-item-customer .infor-customer .name-customer span {
+    font-size: 16px ;
+}
+.customer-review .container-item-customer .content-review{
+    width: 80%;
+    float: left;
+    text-align: left;
+    padding-top: 20px;
+    font-size: 18px;
+}
+.container-dot {
+    display: none;
+}
+#late-item-customer.infor-customer {
+    width: 135px;
+}
+#late-item-customer.infor-customer .content-review {
+    text-align: left;
+    width: 540px;
+}
+
+.home-brands {
+    width: 768px;
+}
+.home-brands .container-home-brands{
+    /* width: 768px; */
+    margin-left: 20px;
+    margin: 0px 15px;
+}
+.home-brands .container-home-brands .home-brands-img {
+    width: 120px;
+    height: 60px;
+    padding: 10px;
+}
+
+.footer-search .container-footer-search .decs-footer-search {
+    width: 40%;
+    float: left;
+    margin: 0px;
+    font-size: 16px;
+}
+.footer-search .container-footer-search .register-search {
+    width: 60%;
+    float: left;
+}
+.footer-search .container-footer-search .register-search input {
+    width: 360px;
+    margin-left: 20px;
+}
+.footer-search .container-footer-search .register-search .btn-register {
+    margin-right: 29px;
+    /* width: 50px; */
+}
+.container-footer-center .footer-card {
+    padding: 10px 35px;
+}
+.footer-bottom {
+    padding: 10px 0px;
+}
